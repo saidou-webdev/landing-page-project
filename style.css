@@ -1,0 +1,115 @@
+*{
+    padding: 5px;
+}
+header{
+    background-color: rgb(156, 91, 216);
+    height: 800px;
+    border-radius: 5px;
+    padding-bottom: 100px;
+    }
+#héro{
+    display: flex;
+}
+.entete{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 40px;
+    margin-top: 15px;
+}
+span{
+    color:  rgb(156, 91, 216);
+    font-weight: bolder;
+    font-size: 50px;
+}
+#lien a{
+    text-decoration: none ;
+    font-size: 40px;
+    margin: 5px;
+}
+#Lampe{
+    align-items: center;
+    text-align: center;
+}
+#Lampe h1{
+    color: white;
+    width: 100%;
+    font-size: 50px;
+}
+.image1{
+    width: 50%;
+    position: absolute;
+    top: 130px;
+    right: 0;
+}
+#Fonctionnalités{
+    background-color:white;
+    border-radius: 5px;
+}
+#Solar{text-align: center;
+    border-radius: 5px;
+    padding-top: 2px;
+
+}
+#Solar h1{
+    color: black;
+}
+#cord{
+    display: flex;
+}
+.pointCle{
+    background-color: rgb(156, 91, 216);
+    margin: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.poinCle h1{
+    font-size: 25px;
+}
+.form-container{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+}
+.form-container h1{
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 15px;
+    display: flex;
+}
+label{
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+input, textarea{
+    width: 100%;
+    padding: 3px;
+    border: 2px solid#ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+
+    
+}
+#pied {
+    display: flex;
+    margin-left: 30%;
+
+}
+#pied button {
+    width: 10%;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border-radius: 5%;
+    font-size: 14px;
+    height: 45px;
+    margin-top: 5px;
+}
+
+
